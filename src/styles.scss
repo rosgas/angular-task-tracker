@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$primary: #6f42c1;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.body-bg {
+  background: linear-gradient(217deg, $green-200, rgba(0, 0, 0, 0) 60.7%),
+    linear-gradient(127deg, $indigo-100, rgba(0, 0, 0, 0) 60.7%),
+    linear-gradient(336deg, $orange-200, rgba(0, 0, 0, 0) 60.7%);
+}
