@@ -13,6 +13,8 @@ $danger: $red;
 $light: $gray-100;
 $dark: $gray-900;
 
+$form-check-input-checked-bg-color: $primary;
+
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
@@ -30,4 +32,8 @@ $theme-colors: (
   background: linear-gradient(217deg, $green-200, rgba(0, 0, 0, 0) 60.7%),
     linear-gradient(127deg, $indigo-100, rgba(0, 0, 0, 0) 60.7%),
     linear-gradient(336deg, $orange-200, rgba(0, 0, 0, 0) 60.7%);
+}
+
+.form-label {
+  margin-bottom: 5px;
 }

@@ -1,0 +1,51 @@
+<form class="mb-4" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <label for="task-text" class="form-label">Task</label>
+    <input
+      type="text"
+      name="text"
+      [(ngModel)]="text"
+      class="form-control"
+      id="task-text"
+      placeholder="Add task"
+    />
+    <div
+      class="alert alert-danger"
+      role="alert"
+      [ngClass]="{ 'alert-show': !text && showAlert }"
+    >
+      Please add a task
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="day-text" class="form-label">Day and Time</label>
+    <input
+      type="text"
+      name="day"
+      [(ngModel)]="day"
+      class="form-control"
+      id="day-text"
+      placeholder="Add day and time"
+    />
+    <div
+      class="alert alert-danger"
+      role="alert"
+      [ngClass]="{ 'alert-show': !day && showAlert }"
+    >
+      Please add day and time
+    </div>
+  </div>
+  <div class="mb-3 form-check">
+    <input
+      type="checkbox"
+      name="reminder"
+      [(ngModel)]="reminder"
+      class="form-check-input"
+      id="reminder"
+    />
+    <label for="reminder" class="form-check-label">Reminder</label>
+  </div>
+  <button type="submit" class="btn btn-primary" id="liveAlertBtn">
+    Submit
+  </button>
+</form>
