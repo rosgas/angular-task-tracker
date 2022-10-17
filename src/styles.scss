@@ -37,3 +37,15 @@ $theme-colors: (
 .form-label {
   margin-bottom: 5px;
 }
+
+.btn-link {
+  color: $primary;
+  text-decoration: none;
+}
+
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
+  color: $primary;
+  opacity: 0.8;
+}
