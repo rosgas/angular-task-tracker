@@ -5,7 +5,7 @@
 @import "../node_modules/bootstrap/scss/variables";
 
 $primary: #6f42c1;
-$secondary: $gray-600;
+$secondary: $orange-500;
 $success: $green;
 $info: $cyan;
 $warning: $yellow;
@@ -32,6 +32,7 @@ $theme-colors: (
   background: linear-gradient(217deg, $green-200, rgba(0, 0, 0, 0) 60.7%),
     linear-gradient(127deg, $indigo-100, rgba(0, 0, 0, 0) 60.7%),
     linear-gradient(336deg, $orange-200, rgba(0, 0, 0, 0) 60.7%);
+  min-height: 100vh;
 }
 
 .form-label {
@@ -47,5 +48,35 @@ $theme-colors: (
 .btn-link:focus,
 .btn-link:hover {
   color: $primary;
+  opacity: 0.8;
+}
+
+.link-primary {
+  text-decoration: none;
+  margin-left: 10px;
+  line-height: 1;
+}
+
+.link-primary:hover,
+.link-primary:active,
+.link-primary:focus {
+  border-bottom: 1px solid $primary;
+}
+
+.link-secondary {
+  color: $orange-300;
+}
+
+.btn-outline-success {
+  --bs-btn-hover-color: #198754;
+  --bs-btn-hover-bg: $light;
+  --bs-btn-hover-border-color: rgba(25, 135, 84, 0.8);
+  --bs-btn-active-color: rgba(25, 135, 84, 0.8);
+  --bs-btn-active-bg: $light;
+  --bs-btn-active-border-color: rgba(25, 135, 84, 0.8);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-outline-success:hover {
   opacity: 0.8;
 }
