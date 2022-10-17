@@ -1,6 +1,7 @@
 <header class="d-flex align-items-end justify-content-between mb-3">
   <h1><span class="text-primary">Task</span> tracker</h1>
   <app-button
+    *ngIf="hasRoute('/')"
     class="{{ showAddTask ? 'btn-link' : 'btn-primary' }}"
     text="{{ showAddTask ? 'Close' : 'Add' }}"
     (btnClick)="toggleAddTask()"
