@@ -9,7 +9,7 @@
 
 <br>
 
-> A **responsive** task traker app created using **Angular**. This is part of the **AngularCrushCourse** by **TraversyMedia**. I have personalized the layout using **Bootstrap**.
+> A **responsive** task traker app created using **Angular**. This is part of the **AngularCrushCourse** by [Traversy media](https://www.traversymedia.com/). I have personalized the layout using **Bootstrap**.
 
 <br>
 
@@ -30,17 +30,17 @@
 
 <h2 id="demo-section">Demo</h2>
 
-![Alt Text](preview-app.gif)
+![Alt Text](app-demo.gif)
 
 <br>
 
 <h2 id="futures-section">Features</h2>
 
-- Add a **reminder** icon (high, medium, low) to your todo;
-
 - **Add task**:
 
   - Add/Close button to show/hide the task **form**;
+
+- Add a **reminder** icon to your task;
 
 - **Clear task** button;
 
