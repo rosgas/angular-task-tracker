@@ -121,7 +121,7 @@ It will run ng serve for a dev server. Navigate to http://localhost:4200/. The a
 **5. Start Json server**
 
 ```
-npm run json
+npm run server
 ```
 
 It will start JSON Server with the specified json file. Normally you need to specify a port number to avoid conflict with existing ports you are going to use.
