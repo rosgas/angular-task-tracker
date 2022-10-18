@@ -9,7 +9,7 @@
 
 <br>
 
-> A **responsive** task traker app created using **Angular**. This is part of the **AngularCrushCourse** by [Traversy media](https://www.traversymedia.com/). I have personalized the layout using **Bootstrap**.
+> A **responsive** task tracker app created using **Angular**. This is part of the **AngularCrushCourse** by [Traversy media](https://www.traversymedia.com/). I have personalized the layout using **Bootstrap**.
 
 <br>
 
