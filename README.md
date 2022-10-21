@@ -19,7 +19,7 @@
 
 ## Table of Contents
 
-- <a href="#demo-section">Live Demo</a>
+- <a href="#demo-section">Demo</a>
 - <a href="#features-section">Features</a>
 - <a href="#technologies-section">Technologies used</a>
 - <a href="#data-storage">Data storage</a>
